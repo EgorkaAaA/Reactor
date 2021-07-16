@@ -11,13 +11,13 @@ import reactor.core.publisher.Mono;
 
 @Configuration
 public class HomeRouter {
-    @Bean
-    public RouterFunctions<ServerResponse> home() {
-        return RouterFunctions.route(RequestPredicates.GET("/"),
-                serverRequest -> {
-                    return ServerResponse
-                            .ok()
-                            .body(BodyInserters.fromValue("Hello, my friend"));
-                });
-    }
+//    @Bean
+//    public RouterFunctions<ServerResponse> home() {
+//        return RouterFunctions.route(RequestPredicates.GET("/"),
+//                serverRequest -> {
+//                    return ServerResponse
+//                            .ok()
+//                            .body(BodyInserters.fromValue("Hello, my friend"));
+//                });
+//    }
 }
