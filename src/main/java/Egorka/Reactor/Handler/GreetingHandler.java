@@ -10,9 +10,8 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
 
 @Component
-public class GreetingHandler implements MonoHandler {
+public class GreetingHandler {
 
-    @Override
     public Mono<ServerResponse> getResponse(ServerRequest request) {
         BodyInserter<String, ReactiveHttpOutputMessage> body =
                 BodyInserters.fromValue("Hello, Spring!");
