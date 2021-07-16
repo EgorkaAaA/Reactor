@@ -1,7 +1,6 @@
 package Egorka.Reactor.Routers;
 
 import Egorka.Reactor.Handler.GreetingHandler;
-import Egorka.Reactor.Handler.MonoHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
